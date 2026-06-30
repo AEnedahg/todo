@@ -96,8 +96,22 @@
 }
 
 .dashboardTodosCheck {
-    caret-color: var(--clr-text);
-    accent-color: #FFF9DE !important;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.dashboardTodosCheck:checked::after {
+    content: "✓";
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 14px;
+    color: black;
 }
 
 h3 {
