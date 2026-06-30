@@ -1,6 +1,6 @@
 @import '@/styles/variables.css';
 
-.form {
+.formAside {
     display: flex;
     column-gap: 5px;
     align-items: center;
