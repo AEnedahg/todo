@@ -97,6 +97,7 @@
 
 .dashboardTodosCheck {
     caret-color: var(--clr-text);
+    accent-color: #FFF9DE !important;
 }
 
 h3 {
