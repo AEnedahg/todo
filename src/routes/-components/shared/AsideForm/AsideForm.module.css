@@ -1,19 +1,19 @@
 @import '@/styles/variables.css';
 
-.form {
+.formAside {
     display: flex;
     column-gap: 5px;
     align-items: center;
     margin-top: 40px;
 }
 
-.form input {
+.formAside input {
     accent-color: white;
     caret-color: var(--clr-text);
     outline: 1px solid var(--clr-text);
 }
 
-.form .label {
+.formAside .label {
     display: inline-block;
     font-size: var(--fs-md) !important;
     @media (min-width : 280px) and (max-width : 1023px) {
