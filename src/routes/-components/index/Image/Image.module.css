@@ -76,7 +76,7 @@ header {
     background-color: var(--clr-tag-purple);
 }
 
-input[type='checkbox'] {
+.imageCheckbox {
     accent-color: transparent;
     caret-color: var(--clr-text);
     outline: 1px solid var(--clr-text);
