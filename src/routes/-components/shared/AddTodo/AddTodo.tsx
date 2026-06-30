@@ -136,10 +136,10 @@ export default function AddTodo() {
                                     style={{
                                         backgroundColor: lastTodo.category.work
                                             ? "#f7f4f4ff"
-                                            : "",
+                                            : "transparent",
                                     }}
                                     onClick={() =>
-                                        addCategories(lastTodo.id, true, "work")
+                                        addCategories(lastTodo.id, !lastTodo.category.work, "work")
                                     }
                                 >
                                     <div className={styles.work}></div>
@@ -150,12 +150,12 @@ export default function AddTodo() {
                                     style={{
                                         backgroundColor: lastTodo.category.study
                                             ? "#f7f4f4ff"
-                                            : "",
+                                            : "transparent",
                                     }}
                                     onClick={() =>
                                         addCategories(
                                             lastTodo.id,
-                                            true,
+                                            !lastTodo.category.study,
                                             "study",
                                         )
                                     }
@@ -169,12 +169,12 @@ export default function AddTodo() {
                                         backgroundColor: lastTodo.category
                                             .entertainment
                                             ? "#f7f4f4ff"
-                                            : "",
+                                            : "transparent",
                                     }}
                                     onClick={() =>
                                         addCategories(
                                             lastTodo.id,
-                                            true,
+                                            !lastTodo.category.entertainment,
                                             "entertainment",
                                         )
                                     }
@@ -188,12 +188,12 @@ export default function AddTodo() {
                                         backgroundColor: lastTodo.category
                                             .family
                                             ? "#f7f4f4ff"
-                                            : "",
+                                            : "transparent",
                                     }}
                                     onClick={() =>
                                         addCategories(
                                             lastTodo.id,
-                                            true,
+                                            !lastTodo.category.family,
                                             "family",
                                         )
                                     }
