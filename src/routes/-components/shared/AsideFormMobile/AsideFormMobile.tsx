@@ -13,7 +13,7 @@ export default function AsideFormMobile () : ReactNode {
     const hideCompleted = useTodoStore((state) => state.hideCompleted);
 
     return (
-        <form className={styles.formAside}>
+        <form className={styles.formAsideMobile}>
             <input type="checkbox" id="hide-done" checked={hideCompleted} onClick={toggleHideCompleted}/>
             <label className={styles.label} htmlFor="hide-done">Hide Done Tasks</label>
         </form>
