@@ -106,9 +106,6 @@ export default function DashboardTodos () : ReactNode {
                                         id={`todo.${index}`}
                                         checked={todo.done}
 onChange={() => completed(index, !todo.done)}
-                                        onClick={() =>
-                                            completed(index, !todo.done)
-                                        }
                                     />
                                     <label
                                         className={styles.label}
