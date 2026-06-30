@@ -102,7 +102,7 @@ export default function DashboardTodos () : ReactNode {
                                 </div>
                                 <form className={styles.form}>
                                     <input
-                                        type="checkbox" className={dashboardTodoCheck}
+                                        type="checkbox" className={styles.dashboardTodosCheck}
                                         id={`todo.${index}`}
                                         checked={todo.done}
                                         onClick={() =>
