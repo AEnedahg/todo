@@ -14,7 +14,7 @@ export default function AsideFormMobile () : ReactNode {
 
     return (
         <form className={styles.formAsideMobile}>
-            <input type="checkbox" id="hide-done" checked={hideCompleted} onClick={toggleHideCompleted}/>
+            <input type="checkbox" className={styles.formAsideMobileCheckbox} id="hide-done" checked={hideCompleted} onClick={toggleHideCompleted}/>
             <label className={styles.label} htmlFor="hide-done">Hide Done Tasks</label>
         </form>
     );
