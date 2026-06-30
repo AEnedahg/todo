@@ -105,6 +105,7 @@ export default function DashboardTodos () : ReactNode {
                                         type="checkbox" className={styles.dashboardTodosCheck}
                                         id={`todo.${index}`}
                                         checked={todo.done}
+onChange={() => completed(index, !todo.done)}
                                         onClick={() =>
                                             completed(index, !todo.done)
                                         }
