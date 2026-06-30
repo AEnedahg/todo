@@ -96,7 +96,6 @@
 }
 
 .dashboardTodosCheck {
-    accent-color: transparent;
     caret-color: var(--clr-text);
 }
 
