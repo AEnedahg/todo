@@ -13,7 +13,7 @@ export default function AsideForm () : ReactNode {
     const hideCompleted = useTodoStore((state) => state.hideCompleted);
 
     return (
-        <form className={styles.form}>
+        <form className={styles.formAside}>
             <input
                 type="checkbox"
                 id="hide-done"
