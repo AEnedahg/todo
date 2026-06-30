@@ -82,7 +82,7 @@ input[type='checkbox'] {
     outline: 1px solid var(--clr-text);
 }
 
-form {
+.imageForm {
     display: flex;
     align-items: center;
     column-gap: 5px;
