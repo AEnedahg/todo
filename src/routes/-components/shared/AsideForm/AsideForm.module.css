@@ -7,10 +7,23 @@
     margin-top: 40px;
 }
 
-.formAside input {
-    accent-color: white;
-    caret-color: var(--clr-text);
-    outline: 1px solid var(--clr-text);
+.formAsideCheckbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.formAsideCheckbox:checked::after {
+    content: "✓";
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 14px;
+    color: black;
 }
 
 .formAside .label {
