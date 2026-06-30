@@ -1,6 +1,6 @@
 @import '@/styles/variables.css';
 
-.formAside {
+.formAsideMobile {
     display: flex;
     column-gap: 5px;
     align-items: center;
@@ -8,7 +8,7 @@
     margin-top: 10px;
 }
 
-.formAside input {
+.formAsideMobile input {
     accent-color: white;
     caret-color: var(--clr-text);
     outline: 1px solid var(--clr-text);
