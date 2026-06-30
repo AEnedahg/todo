@@ -1,0 +1,21 @@
+.main {
+    width : 100vw;
+    max-width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    @media (min-width : 300px) and (max-width: 550px) {
+        padding: 20px 20px 0 20px;
+    }
+}
+
+.dashboardWrapper {
+    display: flex;
+}
+
+.dashboardWrapperMobile {
+    display: flex;
+    @media (min-width : 300px) and (max-width: 550px) {
+        width: 100%;
+    }
+}

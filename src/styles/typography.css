@@ -1,0 +1,41 @@
+@import './variables.css';
+
+h1 {
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+}
+
+h2 {
+    font-size : var(--fs-lg);
+    font-weight: var(--fw-semi-bold);
+    color : var(--clr-text);
+}
+
+h3 {
+    font-size : var(--fs-md);
+    font-weight: var(--fw-semi-bold);
+    color : var(--clr-text);
+}
+
+p {
+    color: var(--clr-text);
+    font-size : var(--fs-base);
+}
+
+small {
+    color: var(--clr-text);
+    font-size : var(--fs-sm);
+}
+
+label {
+    font-size: var(--fs-base);
+    color : var(--clr-text);
+    font-weight: var(--fw-semi-bold);
+}
+
+textarea, input[type='text'] {
+    font-size: var(--fs-base);
+    color: var(--clr-text);
+    background-color: var(--clr-text-box);
+    appearance: none;
+}

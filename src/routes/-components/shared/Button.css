@@ -1,0 +1,13 @@
+button {
+    padding : 12px 30px;
+    color: white;
+    background-color: var(--clr-text);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

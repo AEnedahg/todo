@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+:root {
+    --clr-tag-pink : #FFCECE;
+    --clr-tag-purple : #D2CEFF;
+    --clr-tag-blue : #D1E5F7;
+    --clr-tag-green : #DAF2D6;
+    --clr-white : #FFFFFF;
+    --clr-black : #000000;
+    --clr-text-box : #FFF9DE;
+    --clr-text: #69665C;
+    --clr-inactive: #B2AFA1;
+
+    --ff : Assistant;
+
+    --fs-sm :  14px;
+    --fs-base : 16px;
+    --fs-md : 24px;
+    --fs-lg : 32px;
+    --fs-xl : 48px;
+
+    --fw-regular : 400;
+    --fw-medium : 500;
+    --fw-semi-bold : 600;
+    --fw-bold: 800;
+}

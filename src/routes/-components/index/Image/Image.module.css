@@ -1,0 +1,104 @@
+@import '@/styles/variables.css';
+
+.animatedPerson {
+    width : 180px;
+    @media (min-width : 300px) and (max-width: 550px) {
+        width:  150px;
+    }
+}
+
+.imageWrapper {
+    position: relative;
+}
+
+.animatedPerson:nth-child(1) {
+    @media (min-width : 300px) and (max-width: 550px) {
+        position: absolute;
+        left: -10px;
+    }
+}
+
+.animatedPerson:nth-child(2) {
+    position: absolute;
+    left: 100px;
+    @media (min-width : 300px) and (max-width: 550px) {
+        position: absolute;
+        left: 75px;
+    }
+}
+
+.animatedPerson:nth-child(3) {
+    position: absolute;
+    left : 180px;
+    top : 10px;
+    width : 220px;
+     @media (min-width : 300px) and (max-width: 550px) {
+        width: 200px;
+        top : 0;
+        left : 140px;
+    }
+}
+
+.text {
+    font-weight: var(--fw-semi-bold);
+    text-decoration: line-through;
+}
+
+.textSmall {
+    text-decoration: line-through;
+    margin-bottom: 10px;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.circleWrapper {
+    display: flex;
+    column-gap: 8px;
+}
+
+.circle {
+    width : 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle:nth-child(1) {
+    background-color: var(--clr-tag-pink);
+}
+
+.circle:nth-child(2) {
+    background-color: var(--clr-tag-purple);
+}
+
+input[type='checkbox'] {
+    accent-color: transparent;
+    caret-color: var(--clr-text);
+    outline: 1px solid var(--clr-text);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageBottomWrapper {
+    background-color: var(--clr-text-box);
+    padding: 20px;
+    position: relative;
+    bottom: 32px;
+    @media (min-width : 300px) and (max-width: 550px) {
+        top : 130px;
+    }
+}

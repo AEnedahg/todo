@@ -1,0 +1,47 @@
+@import '@/styles/variables.css';
+
+.categoriesWrapper {
+    width : 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.categoriesWrapper > .tagCont {
+    background-color: transparent;
+    display: flex;
+    column-gap: 4px;
+    align-items: center;
+}
+
+small {
+    font-size: 4vw !important;
+}
+
+.work {
+    width : 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: var(--clr-tag-purple);
+}
+
+.study {
+    width : 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: var(--clr-tag-blue);    
+}
+
+.entertainment {
+    width : 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: var(--clr-tag-pink);   
+}
+
+.family {
+    width : 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: var(--clr-tag-green);
+}

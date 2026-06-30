@@ -1,0 +1,17 @@
+@import '@/styles/variables.css';
+
+@import '@/styles/base.css';
+
+.main {
+    max-width: 400px;
+    margin: 0 auto;
+    @media (min-width : 300px) and (max-width: 550px) {
+        max-width:  300px;
+        margin: 0 auto;
+    }
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+}

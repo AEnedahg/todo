@@ -1,0 +1,127 @@
+.dialog {
+    border: none;
+    border-radius: 12px;
+    padding: 40px;
+    width: 70vw;
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+    @media (min-width : 280px) and (max-width : 1023px) {
+        width: 90vw;
+        height: 80vh;
+        padding: 20px;
+    }
+}
+
+.dialog::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button, .active{
+    padding : 12px 30px;
+    color: white;
+    background-color: var(--clr-text);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.inactive {
+    outline: 1px solid red;
+}
+
+.cancelLink {
+    text-decoration: none;
+}
+.cancel {
+    color: var(--clr-text);
+    font-size : var(--fs-sm) !important;
+}
+
+.error {
+    color: red;
+    margin-top: 2px;
+    font-size : 14px !important;
+}
+
+.tagsWrapper {
+    display: flex;
+    column-gap: 5vw;
+    flex-wrap: wrap;
+}
+
+.tagCont {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.work {
+    background-color: var(--clr-tag-purple);
+    width : 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+
+.study {
+    background-color: var(--clr-tag-blue);  
+    width : 5vw;
+    height: 5vw;
+    border-radius: 50%;  
+}
+
+.entertainment {
+    background-color: var(--clr-tag-pink); 
+    width : 5vw;
+    height: 5vw;
+    border-radius: 50%;  
+}
+
+.family {
+    background-color: var(--clr-tag-green);
+    width : 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+
+input[type='text'], textarea {
+    background-color: #EEEEEE !important;
+    border: none;
+    outline: none;
+    resize: none;
+    color: var(--clr-text);
+    font-family: Assistant !important;
+    padding : 10px;
+    display: block;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-size: var(--fs-md);
+    margin-bottom: 10px;
+
+}
+
+.tags {
+    display: block;
+    font-size: 4vw !important;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.formControl:nth-child(2){
+    margin-top: 20px;
+}

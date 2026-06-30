@@ -1,0 +1,143 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    @media (min-width : 300px) and (max-width: 550px) {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+    }
+}
+
+.todosWrapper {
+    background-color: var(--clr-text-box);
+    padding: 20px;
+}
+
+.strikedTitle {
+    text-decoration: line-through;
+}
+
+.strikedDescription {
+    text-decoration: line-through;
+    margin-bottom:  16px !important;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.description {
+    margin-bottom: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categoriesWrapper {
+    display: flex;
+    column-gap: 4px;
+}
+
+.work {
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--clr-tag-purple);
+    @media (min-width : 280px) and (max-width: 1024px) {
+        width: 5vw;
+        height: 5vw;
+    }
+}
+
+.study {
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--clr-tag-blue);  
+    @media (min-width : 280px) and (max-width: 1024px) {
+        width: 5vw;
+        height: 5vw;
+    }  
+}
+
+.entertainment {
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--clr-tag-pink);
+    @media (min-width : 280px) and (max-width: 1024px) {
+        width: 5vw;
+        height: 5vw;
+    } 
+}
+
+.family {
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--clr-tag-green);
+    @media (min-width : 280px) and (max-width: 1024px) {
+        width: 5vw;
+        height: 5vw;
+    }
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+input[type='checkbox'] {
+    accent-color: transparent;
+    caret-color: var(--clr-text);
+}
+
+h3 {
+     @media (min-width : 280px) and (max-width: 1024px) {
+        font-size: clamp(16px, 6vw, 30px) !important;
+    }
+}
+
+p {
+    @media (min-width : 280px) and (max-width: 1024px) {
+        font-size: clamp(12px, 4vw, 16px) !important;
+    }
+}
+
+.label {
+    font-size: var(--fs-md) !important;
+    @media (min-width : 280px) and (max-width : 1023px) {
+        font-size: 5vw;
+    }
+}
+
+.actions {
+    color : var(--clr-text);
+    font-size: 14px !important;
+    cursor: pointer !important;
+}
+
+.ellipsis {
+    cursor: pointer;
+}
+
+.actionsCont {
+    width : 100px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 8px;
+    position: absolute;
+    padding-top: 2px;
+    right: 30px;
+}

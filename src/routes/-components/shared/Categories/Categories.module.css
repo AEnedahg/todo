@@ -1,0 +1,45 @@
+@import '@/styles/variables.css';
+
+.categoriesWrapper {
+    width : 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-top: 20px;
+    justify-content: start;
+}
+
+.categoriesWrapper .tagCont {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.work {
+    background-color: var(--clr-tag-purple);
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.study {
+    background-color: var(--clr-tag-blue);  
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;  
+}
+
+.entertainment {
+    background-color: var(--clr-tag-pink); 
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;  
+}
+
+.family {
+    background-color: var(--clr-tag-green);
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;
+}
