@@ -15,6 +15,7 @@ export default function AsideForm () : ReactNode {
     return (
         <form className={styles.formAside}>
             <input
+                className={styles.formAsideCheckbox}
                 type="checkbox"
                 id="hide-done"
                 checked={hideCompleted}
