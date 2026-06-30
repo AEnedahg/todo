@@ -140,10 +140,10 @@ export default function EditTodo() {
                                     style={{
                                         backgroundColor: editTodo.category.work
                                             ? "#f7f4f4ff"
-                                            : "",
+                                            : "transparent",
                                     }}
                                     onClick={() =>
-                                        addCategories(editTodo.id, true, "work")
+                                        addCategories(editTodo.id, !editTodo.category.work, "work")
                                     }
                                 >
                                     <div className={styles.work}></div>
