@@ -40,7 +40,7 @@ export default function Image () : ReactNode {
                         <div className={styles.circle}></div>
                         <div className={styles.circle}></div>
                     </div>
-                    <form>
+                    <form class name={styles.imageForm}>
                         <input type="checkbox" checked={true} />
                         <label>Done</label>
                     </form>
