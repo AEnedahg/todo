@@ -8,10 +8,23 @@
     margin-top: 10px;
 }
 
-.formAsideMobile input {
-    accent-color: white;
-    caret-color: var(--clr-text);
-    outline: 1px solid var(--clr-text);
+.formAsideMobileCheckbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.formAsideMobileCheckbox:checked::after {
+    content: "✓";
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 14px;
+    color: black;
 }
 
 .label {
