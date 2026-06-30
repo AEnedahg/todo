@@ -154,12 +154,12 @@ export default function EditTodo() {
                                     style={{
                                         backgroundColor: editTodo.category.study
                                             ? "#f7f4f4ff"
-                                            : "",
+                                            : "transparent",
                                     }}
                                     onClick={() =>
                                         addCategories(
                                             editTodo.id,
-                                            true,
+                                            !editTodo.category.study,
                                             "study",
                                         )
                                     }
@@ -173,12 +173,12 @@ export default function EditTodo() {
                                         backgroundColor: editTodo.category
                                             .entertainment
                                             ? "#f7f4f4ff"
-                                            : "",
+                                            : "transparent",
                                     }}
                                     onClick={() =>
                                         addCategories(
                                             editTodo.id,
-                                            true,
+                                            !editTodo.category.entertainment,
                                             "entertainment",
                                         )
                                     }
@@ -192,12 +192,12 @@ export default function EditTodo() {
                                         backgroundColor: editTodo.category
                                             .family
                                             ? "#f7f4f4ff"
-                                            : "",
+                                            : "transparent",
                                     }}
                                     onClick={() =>
                                         addCategories(
                                             editTodo.id,
-                                            true,
+                                            !editTodo.category.family,
                                             "family",
                                         )
                                     }
