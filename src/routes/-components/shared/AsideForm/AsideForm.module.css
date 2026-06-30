@@ -11,7 +11,7 @@
     appearance: none;
     width: 18px;
     height: 18px;
-    border: 2px solid #FFF9DE;
+    border: 2px solid #FFF9DE !important;
     border-radius: 4px;
     cursor: pointer;
     position: relative;
